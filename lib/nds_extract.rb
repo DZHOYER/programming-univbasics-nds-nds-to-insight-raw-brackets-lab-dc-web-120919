@@ -12,7 +12,6 @@ def directors_totals(nds)
       counter2 += 1
     end
     result[nds[counter][:name]] = total_worldwide_gross
-  #  binding.pry
     counter += 1
   end
   result
